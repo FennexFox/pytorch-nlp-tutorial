@@ -1,5 +1,6 @@
 absl-py==2.3.1
 annotated-types==0.7.0
+array_record==0.8.3
 asttokens==3.0.1
 astunparse==1.6.3
 attrs==25.4.0
@@ -21,9 +22,13 @@ cymem==2.0.13
 debugpy==1.8.17
 decorator==5.2.1
 Distance==0.1.3
+dm-tree==0.1.9
+docstring_parser==0.17.0
 dpcpp-cpp-rt==2025.2.1
+einops==0.8.1
 emoji==1.2.0
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+etils==1.13.0
 executing==2.2.1
 fastjsonschema==2.21.2
 filelock==3.20.0
@@ -34,10 +39,12 @@ gast==0.6.0
 gdown==5.2.0
 gensim==4.4.0
 google-pasta==0.2.0
+googleapis-common-protos==1.72.0
 grpcio==1.76.0
 h5py==3.15.1
 hangul-jamo==1.0.1
 idna==3.11
+immutabledict==4.2.2
 impi-rt==2021.16.1
 importlib_metadata==8.7.0
 importlib_resources==6.5.2
@@ -121,6 +128,7 @@ pillow==12.0.0
 platformdirs==4.5.0
 pluggy==1.6.0
 preshed==3.0.12
+promise==2.3
 prompt_toolkit==3.0.52
 protobuf==6.33.1
 psutil==7.1.3
@@ -145,7 +153,9 @@ rich==14.2.0
 rpds-py==0.29.0
 scikit-learn==1.7.2
 scipy==1.16.3
+sentencepiece==0.2.1
 setuptools==80.9.0
+simple-parsing==0.1.7
 six==1.17.0
 smart_open==7.5.0
 soupsieve==2.8
@@ -160,9 +170,12 @@ tcmlib==1.4.0
 tensorboard==2.20.0
 tensorboard-data-server==0.7.2
 tensorflow==2.20.0
+tensorflow-datasets==4.9.9
+tensorflow-metadata==1.17.2
 termcolor==3.2.0
 thinc==8.3.10
 threadpoolctl==3.6.0
+toml==0.10.2
 torch==2.9.1+xpu
 torchaudio==2.9.1+xpu
 torchvision==0.24.1+xpu
